@@ -1,0 +1,73 @@
+/*-------для всех все сбрасываем-----------*/
+body, button, h1, h2, h3, h4, p, a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%; 
+    font-weight: normal;
+}
+/*--*/
+*{
+    box-sizing: border-box;
+}
+/*---*/
+.header{
+    display: grid;
+    grid-gap: 10px;
+    /* сетка */
+    grid-template-areas:
+        "date date time"
+        "name temp temp"
+        "description description description";
+    /**/
+    /* border: 1px solid silver;
+    border-radius: 10px; */
+    width: 60%;
+    height: auto;
+    padding: 5px;
+    margin: 3% auto;
+}
+.weather{
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 5px;
+}
+/* сетка */
+.date{
+    grid-area: date;
+    background-color: #0093E9;
+    background-image: linear-gradient(190deg, #979899 0%, #e8edec 100%);
+}
+.name{
+    grid-area: name; 
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: solid;
+    padding-left: 20px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+.description{
+    grid-area: description;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: solid;
+    background-color: #0093E9;
+    background-image: linear-gradient(140deg, #52a298 0%, #daeeec 100%);
+}
+.temp{
+    grid-area: temp;
+    background-color: #00e9ba;
+    background-image: linear-gradient(190deg, #bee900 0%, #d7d9cf 100%);
+}
+.time{
+    grid-area: time;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #00e9ba;
+    background-image: linear-gradient(190deg, #11e9e9 0%, #a3ece3 100%);
+}
+/**/
+
+
