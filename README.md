@@ -1,2 +1,4 @@
-# jsAppParser
-# https://andreysumin1982.github.io/jsAppParser/
+# Погодный парсер на JS
+
+Демо: https://andreysumin1982.github.io/jsAppParser/
+
